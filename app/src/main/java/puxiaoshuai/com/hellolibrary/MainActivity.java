@@ -8,14 +8,16 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import puxiaoshuai.com.hellotoast.ShowToast;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-       /* HelloToast.sysHello();
-        Toast.makeText(this,HelloToast.sysHello(),Toast.LENGTH_SHORT).show();*/
+
+        Toast.makeText(this, ShowToast.showMessage(),Toast.LENGTH_SHORT).show();
 
     }
 

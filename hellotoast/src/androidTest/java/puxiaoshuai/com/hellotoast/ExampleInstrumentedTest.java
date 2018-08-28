@@ -1,4 +1,4 @@
-package puxiaoshuai.com.hellolibrary;
+package puxiaoshuai.com.hellotoast;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("puxiaoshuai.com.hellolibrary.test", appContext.getPackageName());
+        assertEquals("puxiaoshuai.com.hellotoast.test", appContext.getPackageName());
     }
 }
