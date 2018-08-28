@@ -7,6 +7,6 @@ package puxiaoshuai.com.hellotoast;
 public class ShowToast {
     public  static  String  showMessage()
     {
-        return "你好,蒲小帅";
+        return "你好,蒲小帅.嘻嘻";
     }
 }
